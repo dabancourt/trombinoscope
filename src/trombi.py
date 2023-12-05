@@ -17,6 +17,7 @@ import tkinter.filedialog
 # sudo apt-get install python3-pil.imagetk
 # (jpg pas géré par défaut dans PIL !)
 #
+
 from PIL import Image, ImageTk, ImageDraw
 import moduleTrombi as trombi
 
