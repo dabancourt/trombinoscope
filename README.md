@@ -14,6 +14,7 @@ cd trombinoscope/
 -----------------------------------
 modifier le projet :
 
+git add nom-du-fichier-sur-lequel-on-travaille.py
 git commit
 git push
 
@@ -65,7 +66,7 @@ vx0,vy0,vx1,vy1=0,0,0,0 #CROP des photos ! valeur sur l'image reelle (pour coupe
 x0,y0,x1,y1=0,0,100,100 #CROP des photos ! valeur du clic (écran en pixel)
 
 
-- BackOffice
+- BackOffice (système et dossiers)
 listeImage = []
 listeNomPrenom = []    # tableau de tuple ("dupond","toto")...  il faut vérifier nb de nom = nb d'images...
 dossierImages = ""
@@ -79,7 +80,14 @@ Largeur=307
 Hauteur=348
 dossier=""  #premier dossier d'images...
 
+autre solution :
+- classe ImageTrombi
+crop
+nomPrenom
+libelle
+numero
 
+et on travaille uniquement sur une liste : ImageTrombi[]
 
 
 
