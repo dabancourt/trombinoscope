@@ -18,7 +18,14 @@ git commit
 git push
 
 git pull
+-----------------------------------
+parfois, 2 dev ont travaillé sur le même fichier,
+- le 1er peut faire commit/push sans problème
+- le 2eme peut faire commit/ mais pas push
+  il doit faire "pull" (pour récupérer le travail du 1er dev)
+  et parfois fusionner les fichiers communs :
 
+git config pull.rebase false
 -----------------------------------
 
 https://www.letecode.com/github-comment-generer-un-jeton-d-acces-personnel-pour-l-authentification
